@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📮 今日技术信号 - 2026年01月13日（北京时间）</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            line-height: 1.8;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 12px;
+            padding: 40px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #1a1a1a;
+            font-size: 28px;
+            margin-bottom: 10px;
+            border-bottom: 3px solid #4CAF50;
+            padding-bottom: 15px;
+        }
+        .date {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #2c3e50;
+            font-size: 22px;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            padding-left: 12px;
+            border-left: 4px solid #4CAF50;
+        }
+        .signal {
+            background-color: #fafafa;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-left: 4px solid #2196F3;
+            transition: transform 0.2s;
+        }
+        .signal:hover {
+            transform: translateX(5px);
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+        }
+        .signal h3 {
+            color: #1976D2;
+            font-size: 18px;
+            margin-top: 0;
+            margin-bottom: 12px;
+        }
+        .signal-meta {
+            color: #888;
+            font-size: 13px;
+            margin-bottom: 10px;
+        }
+        .signal-content {
+            color: #444;
+            font-size: 15px;
+            line-height: 1.7;
+        }
+        .signal-link {
+            display: inline-block;
+            margin-top: 10px;
+            color: #1976D2;
+            text-decoration: none;
+            font-size: 13px;
+            font-weight: 500;
+        }
+        .signal-link:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e0e0e0;
+            text-align: center;
+            color: #888;
+            font-size: 13px;
+        }
+        .tag {
+            display: inline-block;
+            background-color: #e3f2fd;
+            color: #1976D2;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 12px;
+            margin-right: 8px;
+            margin-bottom: 8px;
+        }
+        .highlight {
+            background-color: #fff3cd;
+            padding: 2px 6px;
+            border-radius: 3px;
+        }
+        .priority-high {
+            border-left-color: #f44336;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📮 今日技术信号</h1>
+        <div class="date">2026年01月13日（北京时间）| 精选15条高价值信号</div>
+
+        <h2>🤖 AI Productivity</h2>
+
+        <div class="signal priority-high">
+            <h3>1. Anthropic 推出 Claude Cowork</h3>
+            <div class="signal-meta">
+                <span class="tag">Axios</span>
+                <span class="tag">7小时前</span>
+                <span class="tag">⭐重大发布</span>
+            </div>
+            <div class="signal-content">
+                Anthropic 推出面向日常办公任务的 AI 产品 <span class="highlight">Claude Cowork</span>，具有与 Claude Code 相同的自主性。用户授予文件夹访问权限后，系统自主规划和执行任务——从截图创建费用清单、整理下载文件夹、从零散笔记生成报告初稿。这标志着<span class="highlight">从对话式 AI 转向委托工作给 agent</span>。目前为 research preview，仅限 Claude Max 订阅者（macOS）。
+            </div>
+            <a href="https://www.axios.com/2026/01/12/ai-anthropic-claude-jobs" class="signal-link" target="_blank">查看原文 →</a>
+        </div>
+
+        <div class="signal priority-high">
+            <h3>2. Simon Willison 深度评测 Claude Cowork</h3>
+            <div class="signal-meta">
+                <span class="tag">个人博客</span>
+                <span class="tag">4小时前</span>
+                <span class="tag">⭐实践评测</span>
+            </div>
+            <div class="signal-content">
+                知名开发者 Simon Willison 实测 Claude Cowork，揭示其本质：<span class="highlight">就是 Claude Code，但包装了更友好的界面和预配置的文件系统沙箱</span>。使用 Apple Virtualization Framework 运行自定义 Linux 文件系统，文件挂载到容器化环境。测试任务：分析 46 个博客草稿，逐一搜索网站确认是否已发布，准确找到 3 个最接近发布状态的草稿。Simon 警告：<span class="highlight">不应要求普通用户"监控可疑行为以防 prompt injection"</span>。
+            </div>
+            <a href="https://simonwillison.net/2026/Jan/12/claude-cowork/" class="signal-link" target="_blank">查看原文 →</a>
+        </div>
+
+        <div class="signal priority-high">
+            <h3>3. MIT 评选生成式编码为 2026 突破技术</h3>
+            <div class="signal-meta">
+                <span class="tag">MIT Technology Review</span>
+                <span class="tag">16小时前</span>
+                <span class="tag">⭐行业趋势</span>
+            </div>
+            <div class="signal-content">
+                MIT Technology Review 将生成式编码列为 2026 年 10 大突破技术之一。<span class="highlight">AI 已编写微软 30% 的代码、谷歌 25% 的代码</span>，Meta 的 Zuckerberg 希望未来大部分代码由 AI agent 编写。"Vibe Coding"现象兴起——开发者允许 AI 主导编码过程。但研究警告：AI 生成的代码可能看起来合理但不一定按设计工作。<span class="highlight">负面影响：入门级工作岗位减少</span>。
+            </div>
+            <a href="https://www.technologyreview.com/2026/01/12/1130027/generative-coding-ai-software-2026-breakthrough-technology/" class="signal-link" target="_blank">查看原文 →</a>
+        </div>
+
+        <div class="signal">
+            <h3>4. Claude Skills 完整工作流指南</h3>
+            <div class="signal-meta">
+                <span class="tag">ChatPRD</span>
+                <span class="tag">3小时前</span>
+            </div>
+            <div class="signal-content">
+                详细讲解如何使用 Cursor 和 Claude Code 构建可复用 AI 技能，包括构建、测试、部署完整工作流。强调自动化任务的最佳实践。
+            </div>
+            <a href="https://www.chatprd.ai/how-i-ai/claude-skills-explained" class="signal-link" target="_blank">查看原文 →</a>
+        </div>
+
+        <div class="signal">
+            <h3>5. Claude + GPT-5 双模型工作流</h3>
+            <div class="signal-meta">
+                <span class="tag">Vertu</span>
+                <span class="tag">21小时前</span>
+            </div>
+            <div class="signal-content">
+                最佳实践：<span class="highlight">Claude 生成代码，GPT-5 发现 bug</span>。不要在两者之间选择，而是组合使用发挥各自优势。
+            </div>
+            <a href="https://vertu.com/lifestyle/ai-powered-development-combining-gpt-5-and-claude-for-optimal-results/" class="signal-link" target="_blank">查看原文 →</a>
+        </div>
+
+        <h2>⛓️ Web3 Infrastructure & Crypto</h2>
+
+        <div class="signal priority-high">
+            <h3>6. Vitalik 提出以太坊"Walkaway Test"</h3>
+            <div class="signal-meta">
+                <span class="tag">The Defiant</span>
+                <span class="tag">11小时前</span>
+                <span class="tag">⭐重大方向</span>
+            </div>
+            <div class="signal-content">
+                Vitalik Buterin 提出以太坊必须通过<span class="highlight">"Walkaway Test"</span>——即使核心开发者停止积极更新，协议也能安全运行数十年。以太坊应该像"锤子"一样（买了就是你的），而不是像服务（供应商放弃就停止运作）。技术优先事项：量子抗性密码学、零知识证明可扩展架构、可持续数十年的 PoS 模型。背景：Zcash 治理危机导致 ZEC 单日暴跌 20%，凸显区块链对核心团队的依赖风险。
+            </div>
+            <a href="https://thedefiant.io/news/blockchains/vitalik-buterin-proposes-walkaway-test-ethereum" class="signal-link" target="_blank">查看原文 →</a>
+        </div>
+
+        <div class="signal">
+            <h3>7. Vitalik 警告以太坊路线图成为负担</h3>
+            <div class="signal-meta">
+                <span class="tag">CryptoSlate</span>
+                <span class="tag">8小时前</span>
+            </div>
+            <div class="signal-content">
+                Vitalik 警告：以太坊必须立即采取行动，学习比特币的稳定性。路线图不应成为技术债务。
+            </div>
+            <a href="https://cryptoslate.com/vitalik-buterin-warns-that-ethereums-roadmap-is-now-a-liability-unless-the-network-does-this-one-thing-immediately/" class="signal-link" target="_blank">查看原文 →</a>
+        </div>
+
+        <div class="signal">
+            <h3>8. 量子安全 Web3 的执行完整性问题</h3>
+            <div class="signal-meta">
+                <span class="tag">The Quantum Insider</span>
+                <span class="tag">12小时前</span>
+            </div>
+            <div class="signal-content">
+                研究指出：后量子密码学无法解决执行层攻击，这是 Web3 安全损失的主要原因。量子安全不仅是密码学问题。
+            </div>
+            <a href="https://thequantuminsider.com/2026/01/12/execution-integrity-post-quantum-web3/" class="signal-link" target="_blank">查看原文 →</a>
+        </div>
+
+        <div class="signal">
+            <h3>9. 2026 机构级 RWA 基础设施回顾</h3>
+            <div class="signal-meta">
+                <span class="tag">TechFlow</span>
+                <span class="tag">14小时前</span>
+            </div>
+            <div class="signal-content">
+                政府债券、私人信贷、代币化股票上链速度超预期。机构采用 RWA（现实世界资产）的步伐加快。
+            </div>
+            <a href="https://www.techflowpost.com/zh-CN/article/29896" class="signal-link" target="_blank">查看原文 →</a>
+        </div>
+
+        <h2>🔓 Open Source</h2>
+
+        <div class="signal priority-high">
+            <h3>10. OpenCode 爆发式增长</h3>
+            <div class="signal-meta">
+                <span class="tag">Medium</span>
+                <span class="tag">今日</span>
+                <span class="tag">⭐生态爆发</span>
+            </div>
+            <div class="signal-content">
+                OpenCode 单日暴涨 <span class="highlight">2,087 stars</span>，Claude Code 生态系统爆发。开发者希望增强 Claude Code 的功能，推动生态快速发展。
+            </div>
+            <a href="https://medium.com/@lssmj2014/today-marks-a-seismic-shift-opencodes-explosive-2-087-star-surge-claude-code-ecosystem-erupts-3944d9fe2094" class="signal-link" target="_blank">查看原文 →</a>
+        </div>
+
+        <div class="signal">
+            <h3>11. Show HN: Sx - 修复 Claude Code 团队协作问题</h3>
+            <div class="signal-meta">
+                <span class="tag">Hacker News</span>
+                <span class="tag">7小时前</span>
+            </div>
+            <div class="signal-content">
+                新工具 Sx 解决 Claude Code 团队协作痛点：无需 PR、无需过时文档、无需繁琐演示。支持 Claude Code 和 Cursor。
+            </div>
+            <a href="https://news.ycombinator.com/item?id=46593419" class="signal-link" target="_blank">查看原文 →</a>
+        </div>
+
+        <div class="signal">
+            <h3>12. Agent-of-empires: Claude Code 会话管理工具</h3>
+            <div class="signal-meta">
+                <span class="tag">Hacker News</span>
+                <span class="tag">7小时前</span>
+            </div>
+            <div class="signal-content">
+                Mozilla.ai ML 工程师开发的 CLI 工具，帮助管理所有运行中的 Claude Code/OpenCode 会话。
+            </div>
+            <a href="https://news.ycombinator.com/item?id=46588905" class="signal-link" target="_blank">查看原文 →</a>
+        </div>
+
+        <h2>💡 开发者实践</h2>
+
+        <div class="signal">
+            <h3>13. 为 AI 优化代码库结构，数小时完成交付</h3>
+            <div class="signal-meta">
+                <span class="tag">Indie Hackers</span>
+                <span class="tag">9小时前</span>
+            </div>
+            <div class="signal-content">
+                独立开发者分享经验：通过优化代码库结构使其对 AI 友好，现在可以在数小时内完成以前需要数天的交付。
+            </div>
+            <a href="https://www.indiehackers.com/post/i-structured-my-codebase-for-ai-now-i-ship-in-hours-32f929621b" class="signal-link" target="_blank">查看原文 →</a>
+        </div>
+
+        <div class="signal">
+            <h3>14. Anthropic 切断第三方客户端引发争议</h3>
+            <div class="signal-meta">
+                <span class="tag">Hacker News</span>
+                <span class="tag">15小时前</span>
+            </div>
+            <div class="signal-content">
+                Anthropic 切断第三方客户端访问，社区讨论：这是为了保护 Claude Code 价值链。开发者担心平台风险。
+            </div>
+            <a href="https://news.ycombinator.com/item?id=46586766" class="signal-link" target="_blank">查看讨论 →</a>
+        </div>
+
+        <div class="signal">
+            <h3>15. Anthropic 推出 Claude for Healthcare</h3>
+            <div class="signal-meta">
+                <span class="tag">TechCrunch</span>
+                <span class="tag">6小时前</span>
+            </div>
+            <div class="signal-content">
+                紧随 OpenAI ChatGPT Health 之后，Anthropic 推出 HIPAA 合规的医疗健康 AI 工具，面向医疗提供者和患者。
+            </div>
+            <a href="https://techcrunch.com/2026/01/12/anthropic-announces-claude-for-healthcare-following-openais-chatgpt-health-reveal/" class="signal-link" target="_blank">查看原文 →</a>
+        </div>
+
+        <div class="footer">
+            <p>📊 本期信号来源：Axios、MIT Technology Review、Simon Willison、The Defiant、Hacker News、Indie Hackers</p>
+            <p>🔍 采集时间：2026年01月13日（北京时间）</p>
+            <p>💡 优化策略：Twitter 为主，深度验证 4 个关键页面，积分消耗约 50</p>
+        </div>
+    </div>
+</body>
+</html>
